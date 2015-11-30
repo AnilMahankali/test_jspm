@@ -1,0 +1,29 @@
+{
+  "name": "javascript_sdk",
+  "version": "1.0.0",
+  "description": "Sample_Application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnilMahankali/test_jspm.git"
+  },
+  "author": "Anil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnilMahankali/test_jspm/issues"
+  },
+  "homepage": "https://github.com/AnilMahankali/test_jspm#readme",
+  "devDependencies": {
+    "jspm": "^0.16.15",
+    "jspm-git": "^0.4.2",
+    "karma": "^0.13.15"
+  },
+  "jspm": {
+    "configFile": "jspm-config.js",
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
